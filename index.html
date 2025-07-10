@@ -2,41 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coach Hafiz – Athletics Coach Singapore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coach Hafiz – Certified Athletics Coach</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      scroll-behavior: smooth;
-      background-color: #f4f4f4;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
     }
     header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #222;
-      color: #fff;
-      padding: 10px 20px;
-      z-index: 1000;
+      background: #f8f8f8;
+      padding: 60px 20px 20px;
+      text-align: center;
     }
-    header nav a {
-      color: #fff;
-      margin: 0 15px;
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ddd;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    header p {
+      max-width: 600px;
+      margin: 10px auto;
+      font-size: 16px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 30px 0;
+    }
+    nav a {
       text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      font-size: 14px;
     }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 100px 20px 40px;
-      background: white;
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      border-top: 1px solid #eee;
     }
     h2 {
-      color: #333;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: #222;
     }
     ul {
       padding-left: 20px;
@@ -48,113 +72,123 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      z-index: 100;
     }
     .contact-buttons a {
-      background: #25d366;
-      color: white;
-      padding: 10px 12px;
+      display: inline-block;
+      padding: 12px;
       border-radius: 50%;
-      text-align: center;
+      color: white;
       font-size: 20px;
+      text-align: center;
+      width: 48px;
+      height: 48px;
+      line-height: 24px;
+      background: #25d366;
       text-decoration: none;
     }
-    .contact-buttons a.email { background: #ea4335; }
-    .contact-buttons a.ig { background: #c13584; }
+    .email { background: #ea4335; }
+    .ig { background: #c13584; }
     @media (max-width: 600px) {
-      header nav a { margin: 0 10px; font-size: 14px; }
-      .container { padding: 80px 15px 30px; }
+      header h1 { font-size: 22px; }
+      nav a { font-size: 13px; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#experience">Experience</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <img src="7333710912454393857.jpeg" alt="Coach Hafiz">
+  <h1>Coach Hafiz</h1>
+  <p>Certified Athletics Coach based in Singapore. Over a decade of experience in sprint and distance coaching. IAAF and USATF certified. Coaching athletes of all levels, in-person and online.</p>
 </header>
 
-<div class="container">
-  <section id="about">
-    <h2>About</h2>
-    <p>Coach Hafiz, a certified running coach based in Singapore, brings over a decade of experience to the running world. Specialising in in-person sprint coaching and online training plans, Coach Hafiz is dedicated to helping distance runners of all ages and levels achieve their goals. With certifications from IAAF (now World Athletics) and USATF, Coach Hafiz's structured programs are tailored to each individual, ensuring personal growth and success. As the business evolved during the COVID-19 pandemic, Coach Hafiz expanded services to include online coaching, connecting with long-distance runners globally.</p>
-  </section>
+<nav>
+  <a href="#services">Services</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#experience">Experience</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section id="services">
-    <h2>Services</h2>
-    <ul>
-      <li><strong>SprintEdge:</strong> Face-to-face sprint coaching (100m, 200m, 400m, 4x100m relay)</li>
-      <li><strong>RunRemote:</strong> Online coaching for 800m to marathon runners worldwide</li>
-      <li><strong>PacerPlans:</strong> Training plans for disciplined distance runners (no coaching included)</li>
-    </ul>
-  </section>
+<section id="services">
+  <h2>Services</h2>
+  <ul>
+    <li><strong>SprintEdge:</strong> Face-to-face coaching for 100m, 200m, 400m, 4x100m relay.</li>
+    <li><strong>RunRemote:</strong> Online coaching for 800m to marathon runners.</li>
+    <li><strong>PacerPlans:</strong> Custom training plans for disciplined runners (self-directed).</li>
+  </ul>
+</section>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>BSc. Exercise & Sports Science (Edith Cowan University)</li>
-      <li>Diploma in Sport & Wellness Management (Nanyang Polytechnic)</li>
-      <li>IAAF Level II Sprints & Hurdles (World Athletics)</li>
-      <li>IAAF CECS Level I Youth Coach (World Athletics)</li>
-      <li>Fundamentals of Coaching Track and Field Certificate (USATF & NFHS)</li>
-      <li>National Coaching Accreditation Programme Integrated Level One [Track & Field] (Sport Singapore)</li>
-      <li>NCAP Theory Level 1 Certificate (Sport Singapore)</li>
-      <li>Youth Sports Coaches Training Programme (Sport Singapore)</li>
-      <li>Basic Exercise Course (Sport Singapore)</li>
-      <li>SEL & Pedagogical Skills Training (CCAB/MOE)</li>
-      <li>Risk Assessment Management Level 2 (Sport Singapore)</li>
-    </ul>
-  </section>
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>BSc. Exercise & Sports Science (Edith Cowan University)</li>
+    <li>Diploma in Sport & Wellness Management (Nanyang Polytechnic)</li>
+    <li>IAAF Level II Sprints & Hurdles (World Athletics)</li>
+    <li>IAAF CECS Level I Youth Coach (World Athletics)</li>
+    <li>Fundamentals of Coaching Track and Field Certificate (USATF & NFHS)</li>
+    <li>National Coaching Accreditation Programme Integrated Level One [Track & Field] (Sport Singapore)</li>
+    <li>NCAP Theory Level 1 Certificate (Sport Singapore)</li>
+    <li>Youth Sports Coaches Training Programme (Sport Singapore)</li>
+    <li>Basic Exercise Course (Sport Singapore)</li>
+    <li>SEL & Pedagogical Skills Training (CCAB/MOE)</li>
+    <li>Risk Assessment Management Level 2 (Sport Singapore)</li>
+  </ul>
+</section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li>2011–2025 Flash Athletics Club</li>
-      <li>2020–2024 Para Athletics Singapore</li>
-      <li>2017–2022 ITE College East</li>
-      <li>...and many more listed in full resume</li>
-    </ul>
-  </section>
+<section id="experience">
+  <h2>Experience</h2>
+  <ul>
+    <li>2011–2025 Flash Athletics Club</li>
+    <li>2020–2024 Para Athletics Singapore</li>
+    <li>2017–2022 ITE College East</li>
+    <li>2019–2019 Temasek Primary School</li>
+    <li>2018–2019 Anglo-Chinese School (Primary)</li>
+    <li>2017–2018 Raffles Girls' School</li>
+    <li>2017–2018 Admiralty Secondary School</li>
+    <li>2014–2015 ITE College Central</li>
+    <li>2012–2014 Junyuan Secondary School</li>
+    <li>2011–2012 Tampines Junior College</li>
+    <li>2010–2013 Macpherson Primary School</li>
+    <li>2010–2012 Jurong West Primary School</li>
+  </ul>
+</section>
 
-  <section id="achievements">
-    <h2>Achievements</h2>
-    <h3>Track & Field Coaching</h3>
-    <p>Highlights include:</p>
-    <ul>
-      <li>ITE College East – Multiple podium finishes at ITESC and POL-ITE meets (2014–2019)</li>
-      <li>Faris Rashid – 400m & 200m Champion with record-breaking performance (2016)</li>
-      <li>Saiful Anuar – Multiple top 3 finishes in 400m and 800m events (2016–2017)</li>
-      <li>Many more individual and team achievements from primary to tertiary level</li>
-    </ul>
+<section id="achievements">
+  <h2>Achievements</h2>
 
-    <h3>Online Coaching</h3>
-    <ul>
-      <li>Afiq Zaid: 5km from 25:22 → 23:45, Half Marathon from 2:33 → 1:18</li>
-      <li>Gregory Chia: 5km from 29:01 → 19:03, HM from 1:48 → 1:30</li>
-      <li>Rusyaidi Haziq: 10km from 1:23 → 54:29, HM from 2:26 → 2:01</li>
-    </ul>
-  </section>
+  <h3>Track & Field Coaching</h3>
+  <p>Multiple podium finishes across national and inter-school championships (2012–2019). Notable athletes include:</p>
+  <ul>
+    <li>Faris Rashid – National Champion & Record Holder (U18)</li>
+    <li>Saiful Anuar – Runner-Up at POL-ITE 400m, 800m</li>
+    <li>ITE College East – Overall College Champions, ITESC Track Meets</li>
+    <li>Macpherson Primary, Tampines JC, Junyuan Secondary – multiple top-3 finishes at National Schools</li>
+  </ul>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Have questions or want to train with me?</p>
-    <ul>
-      <li>Email: <a href="mailto:coach.hafiz@gmail.com">coach.hafiz@gmail.com</a></li>
-      <li>WhatsApp: <a href="https://wa.me/6597998766">+65 9799 8766</a></li>
-      <li>Instagram: <a href="https://instagram.com/thekeyboardcoach">@thekeyboardcoach</a></li>
-    </ul>
-  </section>
-</div>
+  <h3>Online Coaching</h3>
+  <ul>
+    <li>Afiq Zaid: Half Marathon 2:33 → 1:18, 5K 25:22 → 23:45</li>
+    <li>Gregory Chia: 5K 29:01 → 19:03, Half Marathon 1:48 → 1:30</li>
+    <li>Rusyaidi Haziq: 10K 1:23 → 54:29, Half Marathon 2:26 → 2:01</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Feel free to reach out via the buttons on the bottom-right or:</p>
+  <ul>
+    <li>Email: <a href="mailto:coach.hafiz@gmail.com">coach.hafiz@gmail.com</a></li>
+    <li>WhatsApp: <a href="https://wa.me/6597998766">+65 9799 8766</a></li>
+    <li>Instagram: <a href="https://instagram.com/thekeyboardcoach">@thekeyboardcoach</a></li>
+  </ul>
+</section>
 
 <div class="contact-buttons">
-  <a href="https://wa.me/6597998766" target="_blank">📱</a>
-  <a href="mailto:coach.hafiz@gmail.com" class="email" target="_blank">✉️</a>
-  <a href="https://instagram.com/thekeyboardcoach" class="ig" target="_blank">📷</a>
+  <a href="https://wa.me/6597998766" target="_blank" title="WhatsApp">📱</a>
+  <a href="mailto:coach.hafiz@gmail.com" class="email" title="Email">✉️</a>
+  <a href="https://instagram.com/thekeyboardcoach" class="ig" target="_blank" title="Instagram">📷</a>
 </div>
 
 </body>
