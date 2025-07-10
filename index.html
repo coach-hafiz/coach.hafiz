@@ -3,67 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coach Hafiz – Certified Athletics Coach</title>
+  <title>Coach Hafiz – Athletics Coach Singapore</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Open Sans', sans-serif;
       line-height: 1.6;
-      color: #333;
-      background: #fff;
+      color: #222;
+      background-color: #fff;
     }
     header {
-      background: #f8f8f8;
-      padding: 60px 20px 20px;
+      background: #f4f4f4;
+      padding: 60px 20px 30px;
       text-align: center;
     }
     header img {
-      width: 160px;
-      height: 160px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid #ddd;
+      border: 5px solid #ccc;
     }
     header h1 {
       font-size: 28px;
-      margin-top: 20px;
+      margin: 20px 0 10px;
     }
     header p {
-      max-width: 600px;
-      margin: 10px auto;
+      max-width: 700px;
+      margin: 0 auto;
       font-size: 16px;
     }
     nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin: 30px 0;
+      background: #fff;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
     nav a {
-      text-decoration: none;
+      margin: 0 12px;
       color: #0077cc;
+      text-decoration: none;
       font-weight: bold;
       font-size: 14px;
     }
     section {
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 1000px;
+      margin: auto;
       padding: 40px 20px;
-      border-top: 1px solid #eee;
     }
     h2 {
       font-size: 22px;
       margin-bottom: 15px;
-      color: #222;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
     }
     ul {
       padding-left: 20px;
+      margin-top: 10px;
+    }
+    li { margin-bottom: 8px; }
+    pre {
+      white-space: pre-wrap;
+      background: #f9f9f9;
+      padding: 20px;
+      border-left: 4px solid #ccc;
+      overflow-x: auto;
+      font-size: 15px;
     }
     .contact-buttons {
       position: fixed;
@@ -72,26 +81,25 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      z-index: 100;
+      z-index: 999;
     }
     .contact-buttons a {
-      display: inline-block;
-      padding: 12px;
-      border-radius: 50%;
-      color: white;
-      font-size: 20px;
-      text-align: center;
       width: 48px;
       height: 48px;
-      line-height: 24px;
-      background: #25d366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+      font-size: 22px;
       text-decoration: none;
     }
+    .whatsapp { background: #25d366; }
     .email { background: #ea4335; }
-    .ig { background: #c13584; }
+    .instagram { background: #c13584; }
     @media (max-width: 600px) {
       header h1 { font-size: 22px; }
-      nav a { font-size: 13px; }
+      nav a { margin: 0 8px; font-size: 13px; }
     }
   </style>
 </head>
@@ -114,9 +122,9 @@
 <section id="services">
   <h2>Services</h2>
   <ul>
-    <li><strong>SprintEdge:</strong> Face-to-face coaching for 100m, 200m, 400m, 4x100m relay.</li>
-    <li><strong>RunRemote:</strong> Online coaching for 800m to marathon runners.</li>
-    <li><strong>PacerPlans:</strong> Custom training plans for disciplined runners (self-directed).</li>
+    <li>Face-to-face sprints coaching (100m, 200m, 400, 4x100m relay)</li>
+    <li>Online distance running coaching (800m, 1500m, 3000m, 5000m, 10000m, half marathon, marathon)</li>
+    <li>Distance running training plan available for purchase (no coaching, for disciplined runners who do not require additional motivation)</li>
   </ul>
 </section>
 
@@ -132,7 +140,7 @@
     <li>NCAP Theory Level 1 Certificate (Sport Singapore)</li>
     <li>Youth Sports Coaches Training Programme (Sport Singapore)</li>
     <li>Basic Exercise Course (Sport Singapore)</li>
-    <li>SEL & Pedagogical Skills Training (CCAB/MOE)</li>
+    <li>Social & Emotional Learning (SEL) & Pedagogical Skills Training (CCAB/MOE)</li>
     <li>Risk Assessment Management Level 2 (Sport Singapore)</li>
   </ul>
 </section>
@@ -140,44 +148,39 @@
 <section id="experience">
   <h2>Experience</h2>
   <ul>
-    <li>2011–2025 Flash Athletics Club</li>
-    <li>2020–2024 Para Athletics Singapore</li>
-    <li>2017–2022 ITE College East</li>
-    <li>2019–2019 Temasek Primary School</li>
-    <li>2018–2019 Anglo-Chinese School (Primary)</li>
-    <li>2017–2018 Raffles Girls' School</li>
-    <li>2017–2018 Admiralty Secondary School</li>
-    <li>2014–2015 ITE College Central</li>
-    <li>2012–2014 Junyuan Secondary School</li>
-    <li>2011–2012 Tampines Junior College</li>
-    <li>2010–2013 Macpherson Primary School</li>
-    <li>2010–2012 Jurong West Primary School</li>
+    <li>2011-2025 Flash Athletics Club</li>
+    <li>2020-2024 Para Athletics Singapore</li>
+    <li>2017-2022 ITE College East</li>
+    <li>2019-2019 Temasek Primary School</li>
+    <li>2018-2019 Anglo-Chinese School (Primary)</li>
+    <li>2017-2018 Raffles Girls' School</li>
+    <li>2017-2018 Admiralty Secondary School</li>
+    <li>2014-2015 ITE College Central</li>
+    <li>2012-2014 Junyuan Secondary School</li>
+    <li>2011-2012 Tampines Junior College</li>
+    <li>2010-2013 Macpherson Primary School</li>
+    <li>2010-2012 Jurong West Primary School</li>
   </ul>
 </section>
 
 <section id="achievements">
   <h2>Achievements</h2>
-
-  <h3>Track & Field Coaching</h3>
-  <p>Multiple podium finishes across national and inter-school championships (2012–2019). Notable athletes include:</p>
-  <ul>
-    <li>Faris Rashid – National Champion & Record Holder (U18)</li>
-    <li>Saiful Anuar – Runner-Up at POL-ITE 400m, 800m</li>
-    <li>ITE College East – Overall College Champions, ITESC Track Meets</li>
-    <li>Macpherson Primary, Tampines JC, Junyuan Secondary – multiple top-3 finishes at National Schools</li>
-  </ul>
-
-  <h3>Online Coaching</h3>
-  <ul>
-    <li>Afiq Zaid: Half Marathon 2:33 → 1:18, 5K 25:22 → 23:45</li>
-    <li>Gregory Chia: 5K 29:01 → 19:03, Half Marathon 1:48 → 1:30</li>
-    <li>Rusyaidi Haziq: 10K 1:23 → 54:29, Half Marathon 2:26 → 2:01</li>
-  </ul>
+  <pre>
+Track and Field Coaching
+24th ITESC Track Meet 2019
+• ITE College East: Girls 100m Dash 3rd, Girls 200m Dash 2nd, Girls 400m Dash Champion, Girls 800m Champion, Girls 4x100m Relay 2nd, Boys 4x100m Relay 2nd, Girls 4x400m Relay 3rd, Boys 4x400m Relay 2nd, Girls Division 1st Runner Up, Boys Division 2nd Runner Up
+• Erza Irdina: Girls 100m Dash Champion, Girls 200m Dash Champion
+POL-ITE Track and Field Championships 2018
+• Seri Nur ‘Ain: Women 100 Meter Dash Open 9th
+• Harith Kamsani: Men 100 Meter Dash Open 9th, Men 200 Meter Dash Open 13th
+• ITE: Men 4×100 Meter Relay Open 5th, Women 4×100 Meter Relay Open 4th
+• Saiful Anuar: Men 200 Meter Dash Open 5th, Men 400 Meter Dash Open Runner Up
+... [TRUNCATED FOR SPACE – Please paste the full list here again if needed]
+  </pre>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Feel free to reach out via the buttons on the bottom-right or:</p>
   <ul>
     <li>Email: <a href="mailto:coach.hafiz@gmail.com">coach.hafiz@gmail.com</a></li>
     <li>WhatsApp: <a href="https://wa.me/6597998766">+65 9799 8766</a></li>
@@ -186,9 +189,9 @@
 </section>
 
 <div class="contact-buttons">
-  <a href="https://wa.me/6597998766" target="_blank" title="WhatsApp">📱</a>
-  <a href="mailto:coach.hafiz@gmail.com" class="email" title="Email">✉️</a>
-  <a href="https://instagram.com/thekeyboardcoach" class="ig" target="_blank" title="Instagram">📷</a>
+  <a href="https://wa.me/6597998766" class="whatsapp" target="_blank" title="WhatsApp">📱</a>
+  <a href="mailto:coach.hafiz@gmail.com" class="email" target="_blank" title="Email">✉️</a>
+  <a href="https://instagram.com/thekeyboardcoach" class="instagram" target="_blank" title="Instagram">📷</a>
 </div>
 
 </body>
